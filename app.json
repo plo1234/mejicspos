@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "enberopos",
+    "slug": "enberopos",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/posicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.8"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/posicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "enableDangerousExperimentalLeanBuilds": false,
+      "package": "com.enbero.enberopos1",
+      "usesCleartextTraffic": true,
+      "permissions": [],
+      "versionCode": 8,
+      "intentFilters": [
+      {
+        "action": "VIEW",
+        "data": {
+          "scheme": "http"
+        },
+        "category": ["BROWSABLE", "DEFAULT"]
+      }
+    ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "031cdce9-0c7f-4807-b063-adedf44a046e"
+      }
+    },
+    "owner": "plo88"
+  }
+}
