@@ -1,25 +1,53 @@
-# mejicspos
-Point of Sale (POS) App for Android written in React-Native using Expo
+# MejicsPOS
 
+**MejicsPOS** is a mobile Point-of-Sale (POS) system built using **React Native** and **Expo** for Android devices.
 
-## 🔧 Features
+## 📱 Features
 - Product and inventory management
-- Sales transaction interface
-- Simple reports
-- Database integration with MySQL
+- Sales transactions and receipt generation
+- Simple reporting
+- Offline-first architecture (optional)
+- Responsive UI for mobile POS usage
 
-## 🛠️ Technologies
-- Java (Backend)
-- HTML & CSS (Frontend)
-- MySQL (Database)
+## 🛠️ Technologies Used
+- React Native (Frontend)
+- Expo (Development and build tools)
+- JavaScript / JSX
+- SQLite (or any client-side storage, if used)
 
-## 🚀 How to Run
-1. Import the MySQL database from `/db/` folder.
-2. Open the Java project in an IDE (e.g., NetBeans, IntelliJ).
-3. Configure the database connection (host, user, password).
-4. Run the application.
+## 🚀 How to Run the App
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally
+- Android emulator or Expo Go app on a physical Android device
+
+### Steps
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/plo1234/mejicspos.git
+2. Navigate to the project directory:
+   cd mejicspos
+3. Install dependencies
+   npm install
+4. Start the development server:
+   npx expo start
+5. Scan the QR code with the Expo Go app on your Android device or run on an Android emulator.
+
 
 ## 📁 Project Structure
-/screens → JavaScript screens
-/design -> images in png format
-/component -> AppContent and header component
+/assets         → Images and static assets
+/components     → Reusable UI components
+/screens        → App screens (e.g. Home, Sales, Inventory)
+/db             → Local storage setup or sample data (if any)
+App.js          → Entry point
+
+## 📌 Author
+GitHub: plo1234
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
+
+
+
