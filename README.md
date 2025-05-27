@@ -36,12 +36,11 @@
 
 
 ## 📁 Project Structure
-/assets         → Images and static assets
-/components     → Reusable UI components
-/screens        → App screens (e.g. Home, Sales, Inventory)
-/db             → Local storage setup or sample data (if any)
-App.js          → Entry point
-
+- `/assets` — Images and static assets  
+- `/components` — Reusable UI components  
+- `/screens` — App screens (e.g. Home, Sales, Inventory)  
+- `/db` — Local storage setup or sample data (if any)  
+- `App.js` — Entry point
 ## 📌 Author
 GitHub: plo1234
 
